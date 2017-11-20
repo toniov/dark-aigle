@@ -6,7 +6,7 @@ Dark Aigle has dark power.
 
 The library extends a native Promise or a Promise library to have [Aigle functions](https://github.com/suguru03/aigle#functions).
 
-It is mainly used for a native Promise because of Async/Await restrictuion. See [Example](https://github.com/suguru03/dark-aigle#example).
+It is mainly used for a native Promise because of Async/Await restriction. See [Examples](https://github.com/suguru03/dark-aigle#example).
 
 ## Usage
 
@@ -16,7 +16,7 @@ You just need to call this library somewhere. The Promise will be extended.
 require('dark-aigle')(Promise);
 ```
 
-## Example
+## Examples
 
 ### Async/Await
 
@@ -56,7 +56,7 @@ async function test() {
 If you use the library, you can make it simple and readable.
 
 ```js
-requrie('dark-aigle')(Promise);
+require('dark-aigle')(Promise);
 
 test();
 
@@ -70,7 +70,7 @@ async function test() {
 
 ### Bluebird
 
-```
+```js
 const Bluebird = require('bluebird');
 require('dark-aigle')(Bluebird);
 
